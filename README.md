@@ -92,6 +92,35 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000) to view the website.
 
+## GitHub Pages Deployment
+
+This site is configured for automatic deployment to GitHub Pages via GitHub Actions.
+
+### Setup Instructions
+
+1. **Enable GitHub Pages in your repository:**
+   - Go to repository Settings → Pages
+   - Under "Build and deployment", select "GitHub Actions" as the source
+
+2. **Push to the main branch or `claude/personal-website-design-Pql5z`:**
+   - The workflow will automatically build and deploy your site
+   - Your site will be available at: `https://<username>.github.io/iamglenn-experiment/`
+
+3. **Custom Domain (Optional):**
+   - If using a custom domain, uncomment the `basePath` line in `next.config.ts`
+   - Add your custom domain in repository Settings → Pages
+
+### Manual Build
+
+```bash
+# Build static export locally
+npm run build
+
+# Output will be in the ./out directory
+```
+
+The site uses Next.js static export (`output: 'export'`) which generates pure HTML/CSS/JS that works on GitHub Pages.
+
 ## Project Structure
 
 ```
