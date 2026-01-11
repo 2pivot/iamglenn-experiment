@@ -1,0 +1,150 @@
+# I AM GLENN · Modernist Digital Experience
+
+A personal website that merges traditional modernist art principles with contemporary web technology.
+
+## Concept
+
+This website explores the intersection of **modernist art movements** and **digital innovation**, featuring "I AM GLENN" as a recurring motif throughout the experience.
+
+### Art Movement Influences
+
+**Piet Mondrian & De Stijl**
+- Primary color palette (red, blue, yellow) with black and white
+- Geometric grid systems
+- Asymmetrical balance
+- Horizontal and vertical emphasis
+
+**Bauhaus**
+- "Form follows function" philosophy
+- Bold, functional typography
+- Clean, geometric shapes
+- Emphasis on simplicity and rationality
+
+**Constructivism**
+- Dynamic diagonal compositions
+- Layered text elements
+- Industrial aesthetic
+- Revolutionary visual language
+
+## Features
+
+### 🎨 Interactive Components
+
+**Bauhaus Hero**
+- Animated entrance with staggered text reveals
+- Floating geometric shapes with parallax effects
+- Primary color accent system
+
+**Mondrian Grid**
+- Interactive grid-based layout inspired by Mondrian's compositions
+- Hover effects on individual blocks
+- "I AM GLENN" appearing in various treatments within the grid
+
+**Constructivist Section**
+- Layered text with offset colors
+- Diagonal line elements
+- Dynamic rotated typography
+
+**Interactive Typography**
+- Auto-rotating text displays
+- Multiple variations of "I AM GLENN"
+- Click and hover interactions
+- Color-shifting animations
+
+**Geometric Shapes**
+- Mouse-responsive parallax effect
+- Floating geometric elements
+- Interactive colored blocks with hover effects
+
+### 🚀 Technical Stack
+
+- **Next.js 16** - React framework with App Router
+- **TypeScript** - Type-safe development
+- **Tailwind CSS v4** - Utility-first styling
+- **CSS Animations** - Custom keyframe animations
+- **Intersection Observer** - Scroll-triggered animations
+
+## Design Principles
+
+1. **Bold Typography** - Large, uppercase sans-serif text as a design element
+2. **Primary Colors** - Mondrian-inspired red, blue, and yellow palette
+3. **Geometric Shapes** - Circles, squares, rectangles, and triangles
+4. **Asymmetry** - Balanced but not symmetric compositions
+5. **White Space** - Clean, uncluttered layouts
+6. **Interactivity** - Engaging user interactions throughout
+7. **Motion** - Purposeful animations that enhance the experience
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the website.
+
+## Project Structure
+
+```
+├── app/
+│   ├── components/
+│   │   ├── BauhausHero.tsx           # Hero section with animated text
+│   │   ├── MondrianGrid.tsx          # Interactive grid layout
+│   │   ├── ConstructivistSection.tsx # Layered text section
+│   │   ├── InteractiveTypography.tsx # Rotating typography
+│   │   ├── GeometricShapes.tsx       # Parallax shapes
+│   │   └── ModernistFooter.tsx       # Footer component
+│   ├── globals.css                   # Global styles & animations
+│   ├── layout.tsx                    # Root layout
+│   └── page.tsx                      # Main page composition
+├── public/                           # Static assets
+└── package.json
+```
+
+## Key Animations
+
+- **Slide In** - Elements entering from different directions
+- **Fade & Scale** - Smooth opacity and size transitions
+- **Rotate In** - Spinning entrance animations
+- **Parallax** - Mouse-responsive movement
+- **Hover Effects** - Interactive state changes
+
+## Customization
+
+The design system is built with CSS variables for easy customization:
+
+```css
+--mondrian-red: #e01e1e
+--mondrian-blue: #0e47cb
+--mondrian-yellow: #ffc107
+--bauhaus-black: #000000
+--bauhaus-white: #ffffff
+```
+
+## Performance
+
+- Static site generation for optimal performance
+- Intersection Observer for efficient scroll animations
+- Optimized component rendering
+- No external font dependencies
+
+## Browser Support
+
+Modern browsers with CSS Grid, Flexbox, and Intersection Observer support:
+- Chrome 90+
+- Firefox 88+
+- Safari 14+
+- Edge 90+
+
+---
+
+**Built with Next.js** · Inspired by Modernist Art · Designed for the Digital Age

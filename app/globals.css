@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+:root {
+  /* Modernist Primary Colors - inspired by De Stijl */
+  --mondrian-red: #e01e1e;
+  --mondrian-blue: #0e47cb;
+  --mondrian-yellow: #ffc107;
+  --bauhaus-black: #000000;
+  --bauhaus-white: #ffffff;
+  --grid-gray: #333333;
+
+  --background: var(--bauhaus-white);
+  --foreground: var(--bauhaus-black);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-mondrian-red: var(--mondrian-red);
+  --color-mondrian-blue: var(--mondrian-blue);
+  --color-mondrian-yellow: var(--mondrian-yellow);
+  --color-bauhaus-black: var(--bauhaus-black);
+  --color-bauhaus-white: var(--bauhaus-white);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--bauhaus-black);
+    --foreground: var(--bauhaus-white);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Modernist Typography */
+.bauhaus-text {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  line-height: 0.9;
+}
+
+.constructivist-diagonal {
+  transform: rotate(-5deg);
+  transform-origin: center;
+}
+
+/* Grid System inspired by Mondrian */
+.mondrian-grid-line {
+  position: absolute;
+  background: var(--bauhaus-black);
+  z-index: 1;
+}
+
+.mondrian-grid-line.horizontal {
+  width: 100%;
+  height: 8px;
+}
+
+.mondrian-grid-line.vertical {
+  width: 8px;
+  height: 100%;
+}
+
+/* Animations */
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromTop {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateIn {
+  from {
+    transform: rotate(-180deg) scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-left {
+  animation: slideInFromLeft 1s ease-out forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInFromRight 1s ease-out forwards;
+}
+
+.animate-slide-in-top {
+  animation: slideInFromTop 1s ease-out forwards;
+}
+
+.animate-fade-in-scale {
+  animation: fadeInScale 1s ease-out forwards;
+}
+
+.animate-rotate-in {
+  animation: rotateIn 1.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+/* Hover effects */
+.hover-mondrian:hover {
+  transition: all 0.3s ease;
+  box-shadow: 8px 8px 0px var(--bauhaus-black);
+}
+
+/* Interactive states */
+.interactive-block {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.interactive-block:hover {
+  transform: scale(1.05);
+}
+
+.interactive-block:active {
+  transform: scale(0.95);
+}
