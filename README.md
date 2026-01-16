@@ -1,10 +1,10 @@
 # I AM GLENN · Modernist Digital Experience
 
-A personal website that merges traditional modernist art principles with contemporary web technology.
+A personal website that merges traditional modernist art principles with surrealist paradoxes and contemporary web technology.
 
 ## Concept
 
-This website explores the intersection of **modernist art movements** and **digital innovation**, featuring "I AM GLENN" as a recurring motif throughout the experience.
+This website explores the intersection of **modernist art movements**, **surrealism**, and **digital innovation**, featuring "I AM GLENN" as a recurring motif throughout the experience. The site weaves together the rational geometry of modernism with the dreamlike paradoxes of surrealism.
 
 ### Art Movement Influences
 
@@ -25,6 +25,16 @@ This website explores the intersection of **modernist art movements** and **digi
 - Layered text elements
 - Industrial aesthetic
 - Revolutionary visual language
+
+**René Magritte & Surrealism**
+- Visual paradoxes and impossible scenes
+- "Treachery of images" - questioning representation vs reality
+- Bowler hat iconography and obscured identities
+- Day/night paradoxes in single scenes
+- Scale distortions and perspective play
+- Frames within frames, windows and mirrors
+- Cloud motifs and sky imagery
+- Word-image contradictions
 
 ## Features
 
@@ -55,6 +65,48 @@ This website explores the intersection of **modernist art movements** and **digi
 - Mouse-responsive parallax effect
 - Floating geometric elements
 - Interactive colored blocks with hover effects
+
+**Magritte-Inspired Sections:**
+
+**Treachery of Glenn**
+- "Ceci n'est pas Glenn" - questioning identity and representation
+- Framed text like a museum painting
+- Magritte-style clouds floating in blue sky
+- Serif typography for philosophical statements
+
+**Cloud Typography**
+- Large fluffy clouds obscuring and revealing text
+- Mouse-responsive parallax cloud movement
+- Sky gradient backgrounds
+- Metaphor for hidden meaning
+
+**Bowler Hat Glenn**
+- Floating bowler hats (Magritte's signature element)
+- Hats obscuring parts of "I AM GLENN"
+- Dark, mysterious atmosphere
+- Silhouetted suited figure
+- Animated hat movement
+
+**Day/Night Paradox**
+- Split screen showing day and night simultaneously
+- Sun and moon visible at once
+- Impossible lighting in single scene
+- Window frame creating "painting within reality" effect
+
+**Floating Letters**
+- Massive scale distortions of individual letters
+- Scroll-responsive perspective shifts
+- Letters at impossible sizes
+- Tiny figure for scale reference (Magritte technique)
+- Sand/earth tone palette
+
+**Mirror Window**
+- Nested frames within frames
+- Museum-style ornate borders
+- Paintings within windows within paintings
+- Multiple perspectives simultaneously
+- Interactive hover effects on nested frames
+- Broken frame pieces suggesting fractured reality
 
 ### 🚀 Technical Stack
 
